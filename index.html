@@ -66,13 +66,15 @@
     <div class="container">
         <div class="form-group">
             <label for="exampleInputEmail1">Title</label>
-            <input type="email" class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
+            <input class="form-control" id="title" aria-describedby="emailHelp" placeholder="Enter task">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Description</label>
-            <textarea class="form-control" id="description" rows="3"></textarea>
+            <label for="exampleFormControlTextarea1" class="my-2">Description</label>
+            <textarea class="form-control" id="description"  placeholder="Enter Description" rows="3"></textarea>
+            <small id="emailHelp" class="form-text text-muted">Add an item to the list</small>
+
         </div>
+        
         <button class="btn btn-primary my-3" id="add">Add to list</button>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
